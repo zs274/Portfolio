@@ -24,23 +24,29 @@ html {
   }
   .parallax-one {
     background: url('../Images/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg') no-repeat center;
-    background-size: contain;
-    background-attachment: fixed;
-    height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
- 
+ background-size: contain;
+    background-attachment: fixed;
+    height: 500px;
+    
   }
 
   .parallax-two {
     background: url('../Images/christopher-gower-m_HRfLhgABo-unsplash.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: contain;
     background-attachment: fixed;
     height: 500px;
   }
 .parallax-three {
   background: url('../Images/clark-tibbs-oqStl2L5oxI-unsplash.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: contain;
   background-attachment: fixed;
   height: 500px;
@@ -97,3 +103,16 @@ a, a:hover, a:focus, a:active {
   text-align: center;
   padding: 15px;
 }
+
+.card-footer {
+  background-color: #c3c7cd;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }}
+
+  
