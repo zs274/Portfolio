@@ -10,6 +10,4 @@ I found this assignemnt challenging but fun as I enjoyed being given the creativ
 ## Deployed Portfolio
 https://zs274.github.io/Portfolio/
 
-<img src="https://github.com/zs274/ResponsivePortfolio/blob/main/Images/Screenshot%202020-12-13%20at%2022.15.23.png">
-
-<img src="https://github.com/zs274/ResponsivePortfolio/blob/main/Images/Screenshot%202020-12-13%20at%2022.15.32.png">
+<img src="Images/portfolio">
