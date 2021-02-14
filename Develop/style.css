@@ -44,3 +44,20 @@ a, a:hover, a:focus, a:active {
   color: inherit;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  background-color: #839faa;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  opacity: 60%;
+}
+
+#myBtn:hover {
+  background-color: #46697b;
+}
