@@ -1,132 +1,30 @@
-.navbar {
-    background-color: #ca96f0;
-  }
-  .navbar .navbar-brand {
-    color: #4a3757;
-  }
-  .navbar .navbar-brand:hover,
-  .navbar .navbar-brand:focus {
-    color: #350359;
-  }
-  .navbar .navbar-text {
-    color: #4a3757;
-  }
-  .navbar .navbar-text a {
-    color: #350359;
-  }
-  .navbar .navbar-text a:hover,
-  .navbar .navbar-text a:focus {
-    color: #350359; 
-  }
-  .navbar .navbar-nav .nav-link {
-    color: #4a3757;
-    border-radius: .25rem;
-    margin: 0 0.25em;
-  }
-  .navbar .navbar-nav .nav-link:not(.disabled):hover,
-  .navbar .navbar-nav .nav-link:not(.disabled):focus {
-    color: #350359;
-  }
-  .navbar .navbar-nav .nav-item.active .nav-link,
-  .navbar .navbar-nav .nav-item.active .nav-link:hover,
-  .navbar .navbar-nav .nav-item.active .nav-link:focus,
-  .navbar .navbar-nav .nav-item.show .nav-link,
-  .navbar .navbar-nav .nav-item.show .nav-link:hover,
-  .navbar .navbar-nav .nav-item.show .nav-link:focus {
-    color: #350359;
-    background-color: #b689d6;
-  }
-  .navbar .navbar-toggler {
-    border-color: #b689d6;
-  }
-  .navbar .navbar-toggler:hover,
-  .navbar .navbar-toggler:focus {
-    background-color: #b689d6;
-  }
-  .navbar .navbar-toggler .navbar-toggler-icon {
-    color: #4a3757;
-  }
-  .navbar .navbar-collapse,
-  .navbar .navbar-form {
-    border-color: #4a3757;
-  }
-  .navbar .navbar-link {
-    color: #4a3757;
-  }
-  .navbar .navbar-link:hover {
-    color: #350359;
-  }
-  
-  @media (max-width: 575px) {
-    .navbar-expand-sm .navbar-nav {
-      color: #4a3757;
-    }
-    .navbar-expand-sm .navbar-nav,
-    .navbar-expand-sm .navbar-nav {
-      color: #350359;
-    }
-    .navbar-expand-sm .navbar-nav {
-      color: #350359;
-      background-color: #b689d6;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .navbar-expand-md .navbar-nav {
-      color: #4a3757;
-    }
-    .navbar-expand-md .navbar-nav,
-    .navbar-expand-md .navbar-nav {
-      color: #350359;
-    }
-    .navbar-expand-md .navbar-nav {
-      color: #350359;
-      background-color: #b689d6;
-    }
-  }
-  
-  @media (max-width: 991px) {
-    .navbar-expand-lg .navbar-nav {
-      color: #4a3757;
-    }
-    .navbar-expand-lg .navbar-nav,
-    .navbar-expand-lg .navbar-nav{
-      color: #350359;
-    }
-    .navbar-expand-lg .navbar-nav{
-      color: #350359;
-      background-color: #b689d6;
-    }
-  }
-  
-  @media (max-width: 1199px) {
-    .navbar-expand-xl .navbar-nav {
-      color: #4a3757;
-    }
-    .navbar-expand-xl .navbar-nav,
-    .navbar-expand-xl .navbar-nav {
-      color: #350359;
-    }
-    .navbar-expand-xl .navbar-nav {
-      color: #350359;
-      background-color: #b689d6;
-    }
-  }
-  
-  .navbar-expand .navbar-nav  {
-    color: #4a3757;
-  }
-  .navbar-expand .navbar-nav ,
-  .navbar-expand .navbar-nav  {
-    color: #350359;
-  }
-  .navbar-expand .navbar-nav {
-    color: #350359;
-    background-color: #b689d6;
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 20px;
+    padding: 25px;
   }
 
   .jumbotron {
-    background-color:  #b689d6;
-    color: white;
-    text-align: center;
+    background-color: whitesmoke;
   }
+  .parallax-one {
+    background: url('https://www.yorkpress.co.uk/resources/images/11512493/') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+  }
+
+  .parallax-two {
+    background: url('../Images/christopher-gower-m_HRfLhgABo-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+  }
+.parallax-three {
+  background: url('../Images/clark-tibbs-oqStl2L5oxI-unsplash.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
