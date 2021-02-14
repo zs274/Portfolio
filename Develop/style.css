@@ -61,3 +61,21 @@ a, a:hover, a:focus, a:active {
 #myBtn:hover {
   background-color: #46697b;
 }
+
+.card{
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #c3c7cd;
+  border: none;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.submit {
+  margin: auto;
+}
