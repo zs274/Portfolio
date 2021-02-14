@@ -1,16 +1,26 @@
+body {
+background-color: #c3c7cd;
+}  
+
+html {
+  scroll-behavior: smooth;
+}
+  
   .container {
     max-width: 960px;
     margin: 0 auto;
-    background: #f9f9f9;
+    background: #c3c7cd;
     font-size: 20px;
     padding: 25px;
+    text-align: center;
   }
 
   .jumbotron {
-    background-color: whitesmoke;
+    background-color:#c3c7cd;
+    text-align: center;
   }
   .parallax-one {
-    background: url('https://www.yorkpress.co.uk/resources/images/11512493/') no-repeat center;
+    background: url('../Images/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
@@ -28,3 +38,9 @@
   background-attachment: fixed;
   height: 500px;
 }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
