@@ -1,5 +1,8 @@
 body {
 background-color: #c3c7cd;
+min-height: 400px;
+margin-bottom: 100px;
+clear: both;
 }  
 
 html {
@@ -21,20 +24,24 @@ html {
   }
   .parallax-one {
     background: url('../Images/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg') no-repeat center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ 
   }
 
   .parallax-two {
     background: url('../Images/christopher-gower-m_HRfLhgABo-unsplash.jpg') no-repeat center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     height: 500px;
   }
 .parallax-three {
   background: url('../Images/clark-tibbs-oqStl2L5oxI-unsplash.jpg') no-repeat center;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   height: 500px;
 }
@@ -78,4 +85,15 @@ a, a:hover, a:focus, a:active {
 
 .submit {
   margin: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #46697b;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
