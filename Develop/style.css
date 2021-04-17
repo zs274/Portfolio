@@ -117,3 +117,7 @@ a, a:hover, a:focus, a:active {
   .card-img-top {
     width:100%; height:auto
   }
+
+  .btn {
+    margin-bottom: 10px
+  }
